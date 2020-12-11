@@ -1,0 +1,180 @@
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<title>Raonpy</title>
+		<link rel="stylesheet" type="text/css" href="/Users/maylim/Documents/GitHub/FAiC_raonpy/Semantic-UI-CSS-master/semantic.min.css">
+    <script
+			src="https://code.jquery.com/jquery-3.1.1.min.js"
+			integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			crossorigin="anonymous">
+		</script>
+    <script src="Semantic-UI-CSS-master/semantic.min.js"></script>
+    <style>
+      .collapse {
+        visibility: collapse;
+      }
+    </style>
+    <style type="text/css">
+
+  .hidden.menu {
+    display: none;
+  }
+
+  .masthead.segment {
+    min-height: 300px;
+  }
+  .masthead h1.ui.header {
+    margin-top: 1em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+  }
+  .masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+  }
+
+  .ui.vertical.stripe {
+    padding: 8em 0em;
+  }
+  .ui.vertical.stripe h3 {
+    font-size: 2em;
+  }
+  .ui.vertical.stripe .button + h3,
+  .ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+  }
+  .ui.vertical.stripe .floated.image {
+    clear: both;
+  }
+  .ui.vertical.stripe p {
+    font-size: 1.33em;
+  }
+  .ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+  }
+
+  .quote.stripe.segment {
+    padding: 0em;
+  }
+  .quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+
+  .footer.segment {
+    padding: 5em 0em;
+  }
+
+  .secondary.pointing.menu .toc.item {
+    display: none;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .ui.fixed.menu {
+      display: none !important;
+    }
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+      display: none;
+    }
+    .secondary.pointing.menu .toc.item {
+      display: block;
+    }
+    .masthead.segment {
+      min-height: 350px;
+    }
+    .masthead h1.ui.header {
+      font-size: 2em;
+      margin-top: 1.5em;
+    }
+    .masthead h2 {
+      margin-top: 0.5em;
+      font-size: 1.5em;
+    }
+  }
+</style>
+  </head>
+  <body data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
+    <!-- Page Contents -->
+    <div class="pusher">
+      <div class="ui inverted vertical masthead center aligned segment"
+        <div class="ui text container">
+          <h1 class="ui inverted header">
+            연관검색어로 살펴본 코로나19
+          </h1>
+          <h2>라온파이: 컴퓨팅 기초 기말 프로젝트</h2>
+        </div>
+      </div>
+
+      <div class="ui vertical stripe segment">
+        <div class="ui text container">
+          <h3 class="ui header">프로젝트 소개</h3>
+          <p>최근 가장 큰, 그리고 가장 긴 이슈인 코로나와 관련된 데이터를 분석해보고자 했습니다. 우선 코로나 상황이 지속됨에 따라 이에 익숙해진 사람들이 확진자수가 증가한다고 하더라도 예전에 비해 코로나 관련 검색을 많이 할지에 대한 의문이 생겼습니다. 그래서 코로나 확진자수와 검색율 사이의 연관성에 대해서 알아보고자 했습니다. 또한 코로나 관련 용어들을 통해서 이를 바라보는 사람들의 시각이 어떻게 바뀌었는지를 알아보려고 했습니다. 또한 간단하지만 시각화가 중요한 코로나 확진자수, 완치자수, 사망자수를 그래프에 나타냈습니다.</p>
+        </div>
+      </div>
+
+      <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+          <div class="row">
+            <div class="six wide column">
+              <h3 class="ui header">코로나19 겸색율과 코로나 확진자수</h3>
+              <p>검색율은 네이버에서 해당 검색어가 검색된 횟수를 일별/주별/월별 각각 합산하여 조회기간 내 최다 검색량을 100으로 설정하여
+       						상대적인 변화를 나타낸 것입니다. 코로나 관련 검색어로 코로나, 코로나확진자, 확진자를 사용해서 데이터를 얻었습니다.
+       						그래프를 통해 코로나 관련 검색율과 일별확진자 수가 상당히 관련성이 있다는 것을 확인할 수 있습니다. 특히 최근 3차 대유행 이후,
+       						코로나 관련 검색율이 급등한 것을 볼 수 있습니다.</p>
+            </div>
+            <div class="nine wide right floated column">
+              <img src="/Users/maylim/Downloads/FAICgraph2.png" class="ui massive bordered image" width="720" height="480">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="ui vertical stripe quote segment">
+        <div class="ui equal width stackable internally celled grid">
+          <div class="center aligned row">
+            <div class="column">
+              <h3>코로나 관련 검색어 추이</h3>
+              <p>코로나 발병 초기에는 중국 우한에서 발생한 폐렴이라고 많이 알려졌습니다. 발병 초기와 현재 코로나에 대한 사람들의 인식을 관련 단어 검색 비중을 통해 알아보고자 했습니다.
+                '코로나'가 검색되기 이전에 '폐렴'과 '전염병'으로 검색이 시작되었음을 알 수 있으며, 2월 말부터는 '코로나'라는 명칭이 사용되기 시작하면서 다른 검색어들은 거의 사용되지 않은 것을 볼 수 있습니다.
+                <br></br>
+                <img class="ui centered large bordered image" src="/Users/maylim/Downloads/FAICgraph4.png" width="720" height="480">
+              </p>
+            </div>
+            <div class="column">
+              <h3>코로나19 확진자 추이</h3>
+              <p>누적확진자수, 완치자수, 사망자수를 표현한 그래프입니다. 확진자수에 비해 사망자수가 높지 않은, 즉 치사율이 높지 않은 코로나 질병의 특징을 확인할 수 있습니다.
+                <br></br>
+                <img class="ui centered medium bordered image" src="/Users/maylim/Downloads/FAICgraph3.png">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="ui inverted vertical footer segment">
+        <div class="ui container">
+          <div class="ui stackable inverted divided equal height stackable grid">
+            <div class="three wide column">
+              <h4 class="ui inverted header">About</h4>
+              <p>2020년도 컴퓨팅 기초 기말 프로젝트</p>
+            </div>
+            <div class="three wide column">
+              <h4 class="ui inverted header">라온파이 팀원 소개</h4>
+              <p> <li> 자유전공학부 임윤정 </li> <li> 자유전공학부 홍정아</li></p>
+            </div>
+            <div class="seven wide column">
+              <h4 class="ui inverted header">자료출저</h4>
+              <p>네이버 Datalab, 공공데이터포털</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </body>
+
+</html>
